@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1,h2{
+           color :greenyellow;
+        }
+       
+       
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Exam form</h1>
+        <h2>Contact Information</h2>
+        <p>Name: *<input type="text" name="name" required></p>
+        <fieldset>
+            <legend>Gender:</legend>
+            <p>Male <input type="radio" name="gender" id="male" >
+                female <input type="radio" name="gender" id="female" >
+        </fieldset>
+            </p>
+            <p class="ankita">Address: <textarea name="address" id="address" cols="60" rows="6"></textarea></p>
+            <p>Email: *<input type="email" name="email" id="email" required></p>
+            <p>Pincode: *<input type="number" name="pincode" id="pincode" required></p>
+            <h2>Payment process:</h2>
+            <p>Card type: <select name="card type">
+               <option value="">--select a card type--</option>   
+               <option value="VISA">VISA</option>
+               <option value="RUPAY">RUPAY</option>
+               <option value="UPI PAY">UPI PAY</option>
+            </select></p>
+            <p>Card Number: *<input type="number" id="card_number" required></p>
+            <p>Expiration Date: <input type="date" id="expiration_date"></p>
+            <p>CVV *<input type="password" name="cvv" id="password" required></p>
+             <p><input type="submit" value="Pay_Now"></p>
+             <p><input type="submit" value="submit"></p>
+    </form>
+    <h3 id="heading">ID selector</h3>
+</body>
+</html>

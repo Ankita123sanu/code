@@ -1,0 +1,11 @@
+{
+  "files.associations": {
+    "*.json": "dart",
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "cstring": "cpp",
+    "string": "cpp",
+    "xstring": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "disabled"
+}
